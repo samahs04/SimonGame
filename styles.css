@@ -1,0 +1,58 @@
+body{
+  background:#838383;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive; ;
+}
+h1{
+  color: #FEF2BF;
+  margin-top: 5%;
+  font-size: 3rem;
+}
+/*buttons*/
+.simonBtn{
+  border: 8px solid black;
+  width: 210px;
+  height: 210px;
+  margin: 25px;
+  border-radius: 20%;
+}
+.btnGreen{
+  background-color: #beebe9;
+}
+.btnRed{
+  background-color: #ff6e7f;
+}
+.btnYellow{
+  background-color: #ffb6b9;
+}
+.btnBlue{
+  background-color: #f6eec7;
+}
+.pressed{
+  box-shadow: 0px 0px 25px 0 #00000085;
+  opacity: 0.5;
+}
+/*button start*/
+.startAgain{
+  width: 150px;
+  height:45px ;
+}
+.start{
+  width: 100px;
+  height: 40px;
+}
+.startBtn{
+  font-family: 'Press Start 2P', cursive; ;
+  border-radius: 50px;
+  font-size: 14px;
+  background-color: #97ffce;
+  margin-top: 0;
+}
+.startBtn:hover{
+  box-shadow: 0px 0px 25px 0 #00000085;
+}
+/*game over background*/
+.gameOver {
+  background: red;
+  opacity: 0.8;
+}
